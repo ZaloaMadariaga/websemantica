@@ -1,0 +1,508 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #4d4d4d;
+    width:100%;
+    height: 100%;
+    margin:0 auto;
+	font-size:25px;
+	 background-color: #fce571;
+
+}
+h1 {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+	font-size: 3rem
+}
+		
+h2{
+	font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+	text-align:center;
+	
+}
+
+h3{ 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+
+}
+/* HASIERAKO ORRIA, ORRI NAGUSIA */
+
+ /* headerra */
+
+header {
+	background-color: #a6d6ee;
+    box-shadow:0px 3px 0px #373c3c;
+	border-radius:50px;
+    margin-bottom: 2rem;
+    margin-left: 5.5rem;
+    align-items:center;
+    height:6%;
+    width: 40%;
+	margin-left:28rem;
+	margin-top: 10px;
+}
+
+ h2{
+	font-size: 25px;
+	text-align: center;
+	
+}
+ /* nabigazio menua*/
+
+
+nav {
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: none;
+    color:#eeeeee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height:15%;
+    width:100%;
+	
+	}
+	
+.nav-links{
+    list-style: none;
+	font-size: 15px;
+}
+
+.nav-links li{
+	font-family:'Poppins', sans-serif;
+    display: inline-block;
+    padding:  2rem;    
+	background:#E9D0EA;
+	color:#fff;
+	display:inline-block;
+	font-size:1.25em;
+	margin:10px;
+	padding:10px 0;
+	text-align:center;
+	width:150px;
+	text-decoration:none;
+	box-shadow:0px 3px 0px #373c3c;
+	border-radius:50px;
+}
+.nav-links li:hover{
+    transform: scale(1.1);
+	
+}
+
+.nav-links a{
+    font-size: 700;
+	font-style: bold;
+    color: black;
+    text-decoration: none;    
+}
+
+.nav-links li a:hover{
+    color: #ffbc0e;
+}
+
+ /* Asteko filmeea -section*/
+
+
+.asteko-filma{
+    width:50%;
+    height:60%;
+	margin-right: 3rem ;
+    float: right;
+    border-radius:50px;
+	 background: white;
+    margin-top: 6rem;
+	line-height: 1.5;
+	 box-shadow: 1px 5px 25px rgba(0,0,0,0.45);
+}
+
+
+.izenburua{
+	font-size:2rem;
+	text-align:center;
+	margin-bottom: 1rem;
+	margin-top:1rem;
+}
+
+
+.asteko-filma h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+	text-align: left;
+	margin-bottom: 1rem;
+	margin-top:1rem;
+	
+}
+
+.asteko-filma img{
+ 
+    float: left;
+    margin-right: 1rem;
+	width:210px;
+	height:312px;
+   margin-bottom: 2rem;
+	margin-left: 1rem;
+
+}
+.asteko-filma p{
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: 1rem;
+	margin-left: 3rem;
+	margin-right: 2rem; 
+	
+	
+}
+.asteko-filma a{
+	text-decoration: none; 
+	font-size: 1rem; 
+
+}
+
+ /* Proposamenak- section */
+
+.proposamenak{
+    width:32%;
+    height:45%;
+    float: left;
+
+    padding-bottom: 2rem;
+	 background: white;
+    margin-top: 3rem;
+	line-height: 1.5;
+	 box-shadow: 1px 5px 25px rgba(0,0,0,0.45);
+	 margin-left: 5rem;
+	 margin-bottom:3rem;
+	border-radius:50px;
+}
+.proposamenak h1{
+	font-size:2rem;
+	text-align:center;
+	margin-top:0.5rem;
+}
+
+.proposamenak img{
+    float: left;
+    margin-right: 1rem;
+    margin-bottom:0.5rem;
+	margin-left: 1rem;
+	width:75px;
+	height:112px;
+
+}
+.proposamenak h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+	text-align: left;
+	margin-bottom: 1rem;
+	margin-top:1rem;
+	text-align: center;
+	clear: both;
+
+}
+
+.proposamenak p{
+    font-size: 1rem;
+    font-weight: 300;
+    margin-top: 1rem;
+	
+}
+
+.proposamenak a{
+	text-decoration: none; 
+
+}
+
+.footer{
+    background-color: #a6d6ee;
+    color:grey;
+    clear: both;
+    text-align:center;
+    height:8%;
+    width:50%;
+	margin-bottom:2%;
+	box-shadow: 1px 5px 25px rgba(0,0,0,0.45);
+	border-radius:50px;
+	margin-left: 23rem;
+}
+.footer p{
+	font-size:15px;
+	margin-top:2%;
+	margin-bottom: 2%;
+}
+
+ /* ESTRENAILDIAK */
+
+.estreinaldiak{
+	display: flex;
+	margin-top: 1rem;
+    margin-left: 0.5rem;
+	margin-right: 0.5rem;
+	align-items:center;
+}
+.estrenoa{
+    width:21%;
+    height: 20%;
+	margin-left: 3.5rem;
+	margin-right: 0.5rem;
+    float: left;
+    padding  : 0px;
+	background: white;
+    margin-top: 2%;
+	line-height: 1.5;
+	box-shadow: 1px 5px 25px rgba(0,0,0,0.45);
+	border-radius:50px;
+	 
+}
+
+.estrenoa img{
+    margin-left: 10%;
+    margin-right: 1%;
+	height:371px;
+	width: 250px;
+
+
+}
+
+.estrenoa p{
+    font-size: 20px;
+    font-weight: 300;
+	margin-left: 5px;
+	margin-bottom: 5px;   
+	text-align: center;
+
+}
+.estrenoa h2{
+	margin-top: 1rem;
+
+}
+
+.estrenoa a{
+	text-decoration: none; 
+	font-size: 1rem;
+    text-align: center;
+	margin-left: 8rem;
+	margin-top: 1rem;
+}
+
+
+ /* FILMEAK */
+
+.filmea{
+    width:90%;
+    height: 60%;
+    float: center;
+    padding-bottom:5px;
+	background: white;
+    margin-top: 100px;
+	line-height: 1.5;
+	 box-shadow: 1px 5px 25px rgba(0,0,0,0.45);
+	 border-radius:50px;
+
+
+	
+}
+.filmea iframe{
+ 
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+	margin-left: 4%;
+	margin-top: 2%;
+	
+
+}
+.filmea{
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 50px; 
+	
+}
+
+.sarrera{
+ display: flex; 
+
+}
+.fitxa {
+    width:40%;
+    height: 30%;
+    float: right ;
+    padding  : 0px;
+	 background: white;
+    margin-top: 3%;
+	line-height: 1.5;
+    background-color:  #c7f4f1;
+	margin-left: 4%;
+    border-radius: 30px;
+}
+.fitxa p{
+	margin-left:5%;
+	margin-right: 5%;
+	margin-bottom: 2%;
+
+}
+
+.sinopsia{
+	width:90%;
+	margin-left: 5%;
+	
+	
+}
+.sinopsia p{
+	margin-bottom: 5%;
+}
+
+ /* GOMENDIOAK*/
+
+.iritzia{
+	background: white;
+	box-shadow: 1px 5px 25px rgba(0,0,0,0.45);
+	 border-radius:50px;
+	 width: 90%;
+	 height: 13rem;
+	 margin-top: 3%;
+	 margin-bottom: 2%;
+	 margin-left: 3%;
+	 
+ }
+
+.iritzia img{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+	margin-left: 20px;
+	height:148px;
+	width: 100px;
+}
+
+.iritzia p{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 1rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	margin-bottom: 3rem; 
+
+}
+
+.iritzia a{
+	margin-left: 10px;
+	text-decoration: none; 
+	
+}
+ /* KONTAKTUA*/
+
+
+.kontaktua {
+    width:40rem;
+    height: 36rem;
+	margin-left: 10%;
+	margin-top: 20rem;
+    float:left;
+	 background: white;
+    margin-top: 1rem;
+	line-height: 1.5;
+	 box-shadow: 1px 5px 25px rgba(0,0,0,0.45);
+	 border-radius:50px;
+	 font-size: 1.5rem;
+	 
+}
+
+.kontaktua input{
+	width:14rem;
+	height: 2rem;
+	padding:1rem;
+	font-size: 1rem;
+	color: #86858e;
+	
+	border-radius:5px;
+	background-color:#f6f6f6;
+
+	display:inline-block;
+	
+	
+}
+form {
+  margin-left: 1rem;
+  margin-right:1rem;
+  margin-bottom:1rem;
+  height:10rem;
+  
+}
+.mod2{
+	width:14rem;
+	height: 2rem;
+	font-size: 1.5rem;
+	margin-bottom: 3rem;
+}
+	
+
+.kontaktua button {
+  font-family:'Poppins', sans-serif;
+   background:#E9D0EA;
+	color:black;
+	float: right;
+    font-size:20px;
+	margin-right: 3rem;
+	text-align:center;
+	width:10.5rem;
+	height: 2.5rem;
+	box-shadow:0px 3px 0px #373c3c;
+	border-radius:50px;
+
+}
+
+.form_bottom{
+	font-family:'Poppins', sans-serif;
+  
+    padding:  2rem;    
+	background:#E9D0EA;
+	color:#fff;
+	display:inline-block;
+	font-size:1.25em;
+	margin:10px;
+	padding:10px 0;
+	text-align:center;
+	width:150px;
+	text-decoration:none;
+	box-shadow:0px 3px 0px #373c3c;
+	border-radius:50px;
+
+
+}
+
+.estekak {
+	border-radius:50px;
+    width:15rem;
+    height: 27rem;
+	margin-right: 17rem;
+    float:right;
+    align-items: center;
+	 background: white;
+    margin-top: 4rem;
+	line-height: 1.5;
+	 box-shadow: 1px 5px 25px rgba(0,0,0,0.45);
+}
+.estekak img{
+	margin-bottom:1rem;
+	height: 4rem;
+	margin-left: 4rem;
+
+
+  
+}
+
+
